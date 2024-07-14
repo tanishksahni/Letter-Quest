@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE034DAF2C43CE8C003477CD /* RainbowBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE034DAE2C43CE8C003477CD /* RainbowBorder.swift */; };
 		CED74BD62C3ECC7A0094BA5F /* Letter_QuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BD52C3ECC7A0094BA5F /* Letter_QuestApp.swift */; };
 		CED74BD82C3ECC7A0094BA5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BD72C3ECC7A0094BA5F /* ContentView.swift */; };
 		CED74BDA2C3ECC7B0094BA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED74BD92C3ECC7B0094BA5F /* Assets.xcassets */; };
 		CED74BDD2C3ECC7B0094BA5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED74BDC2C3ECC7B0094BA5F /* Preview Assets.xcassets */; };
+		CED74BE42C3ECD020094BA5F /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE32C3ECD020094BA5F /* LevelsView.swift */; };
+		CED74BE62C3ECD1A0094BA5F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE52C3ECD1A0094BA5F /* GameView.swift */; };
+		CED74BE82C3ECDC00094BA5F /* SpriteKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE72C3ECDC00094BA5F /* SpriteKitContainer.swift */; };
+		CED74BEA2C3ECFA70094BA5F /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BE92C3ECFA70094BA5F /* Level.swift */; };
+		CED74BEC2C3ED3870094BA5F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74BEB2C3ED3870094BA5F /* GameScene.swift */; };
+		CED74BF92C43BB0C0094BA5F /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CED74BF82C43BB0C0094BA5F /* MyScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE034DAE2C43CE8C003477CD /* RainbowBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowBorder.swift; sourceTree = "<group>"; };
 		CED74BD22C3ECC7A0094BA5F /* Letter Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Letter Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED74BD52C3ECC7A0094BA5F /* Letter_QuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter_QuestApp.swift; sourceTree = "<group>"; };
 		CED74BD72C3ECC7A0094BA5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED74BD92C3ECC7B0094BA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED74BDC2C3ECC7B0094BA5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED74BE32C3ECD020094BA5F /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		CED74BE52C3ECD1A0094BA5F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CED74BE72C3ECDC00094BA5F /* SpriteKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitContainer.swift; sourceTree = "<group>"; };
+		CED74BE92C3ECFA70094BA5F /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		CED74BEB2C3ED3870094BA5F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CED74BF82C43BB0C0094BA5F /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 				CED74BD72C3ECC7A0094BA5F /* ContentView.swift */,
 				CED74BD92C3ECC7B0094BA5F /* Assets.xcassets */,
 				CED74BDB2C3ECC7B0094BA5F /* Preview Content */,
+				CED74BE32C3ECD020094BA5F /* LevelsView.swift */,
+				CED74BE52C3ECD1A0094BA5F /* GameView.swift */,
+				CED74BE72C3ECDC00094BA5F /* SpriteKitContainer.swift */,
+				CED74BE92C3ECFA70094BA5F /* Level.swift */,
+				CED74BEB2C3ED3870094BA5F /* GameScene.swift */,
+				CED74BF82C43BB0C0094BA5F /* MyScene.sks */,
+				CE034DAE2C43CE8C003477CD /* RainbowBorder.swift */,
 			);
 			path = "Letter Quest";
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED74BDD2C3ECC7B0094BA5F /* Preview Assets.xcassets in Resources */,
+				CED74BF92C43BB0C0094BA5F /* MyScene.sks in Resources */,
 				CED74BDA2C3ECC7B0094BA5F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED74BEA2C3ECFA70094BA5F /* Level.swift in Sources */,
+				CED74BE82C3ECDC00094BA5F /* SpriteKitContainer.swift in Sources */,
 				CED74BD82C3ECC7A0094BA5F /* ContentView.swift in Sources */,
+				CED74BE42C3ECD020094BA5F /* LevelsView.swift in Sources */,
+				CED74BE62C3ECD1A0094BA5F /* GameView.swift in Sources */,
+				CED74BEC2C3ED3870094BA5F /* GameScene.swift in Sources */,
+				CE034DAF2C43CE8C003477CD /* RainbowBorder.swift in Sources */,
 				CED74BD62C3ECC7A0094BA5F /* Letter_QuestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
